@@ -1,0 +1,37 @@
+{
+  "name": "uber-coding-challenge-departure-times",
+  "description": "Departure Times - Uber Coding Challenge",
+  "license": "BSD-2-Clause",
+  "author": "Albano Daniele Salvatore <d.albano@gmail.com>",
+  "main": "web-server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielealbano/uber-coding-challenge-departures-time.git"
+  },
+  "dependencies": {
+    "compression": "^1.6.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "request": "^2.67.0",
+    "sax": "^1.1.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4",
+    "apidoc": "^0.14.0"
+  },
+  "engines": {
+    "node": "5.3.0"
+  },
+  "scripts": {
+    "start": "node web-server.js",
+    "test": "./node_modules/jshint/bin/jshint ./src && ./node_modules/mocha/bin/mocha ./test",
+    "postinstall": "node generate-dataset.js"
+  },
+  "apidoc": {
+    "title": "Uber Coding Challenge - Departures Time Api",
+    "version": "1.0.0",
+    "url": "https://secret-lake-8750.herokuapp.com",
+    "sampleUrl": "http://secret-lake-8750.herokuapp.com"
+  }
+}
