@@ -1,6 +1,6 @@
 ## Departures Time - Uber Coding Challenge
 
-This repository contains an implementation of the Departures Time coding challenge, it is hosted on a digital ocean droplet and can be reached at the following url (http://uber-coding-challenge.cloud.itechcon.it/).
+This repository contains an implementation of the Departures Time coding challenge, it is hosted on a digital ocean droplet and can be reached at the following urls https://uber-coding-challenge.cloud.itechcon.it/ and http://uber-coding-challenge.cloud.itechcon.it/.
 
 ### The Challenge
 
