@@ -31,6 +31,8 @@ This means that give a distance of 100mt the points contined in a bounding box w
 
 The code hasn't been developed following a test driven approach because I don't have specific knowledge of the mocha framework
 
+*2015/12/23, at about 20.30 GMT+1, the Nextbus's CDN, Incapsula, began to block the requests sending back some html and/or causing redirection loops. After digging deeper, I discovered they were sending two cookies (visid_incap_{NUMBER1} and incap_sess_{NUMBER2}_{NUMBER1}) to try to detect and block automated requests. I workarounded it doing a request to read the cookies but a few hours later they disabled the check and, right after, I removed the code. If the predictions webservice fails may depend on this*
+
 ### Requirements
 
 * [Node.js](http://nodejs.org/) >= 5.3.0
