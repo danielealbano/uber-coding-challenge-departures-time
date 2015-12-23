@@ -18,6 +18,17 @@ class NextbusXmlRequest extends Request {
     }
 
     /**
+     * Init the error
+     * @protected
+     * @override
+     **/
+    _initError() {
+        super._initError();
+
+        this._error.shouldRetry = null;
+    }
+
+    /**
      * Init the sax parser
      * @private
      **/
@@ -32,17 +43,6 @@ class NextbusXmlRequest extends Request {
             this._parser.error = null;
             this._parser.resume();
         }.bind(this));
-    }
-
-    /**
-     * Init the error
-     * @protected
-     * @override
-     **/
-    _initError() {
-        super._initError();
-
-        this._error.shouldRetry = null;
     }
 
     /**
@@ -102,7 +102,7 @@ class NextbusXmlRequest extends Request {
     }
 
     /**
-     * Query a given url
+     * Query the end point with a given query string
      * @override
      **/
     query(qs, cb) {

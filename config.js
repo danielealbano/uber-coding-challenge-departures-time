@@ -1,6 +1,6 @@
 module.exports = {
     generateDataset: {
-        maxConcurrentRequest: 10
+        maxConcurrentRequest: 5
     },
 
     webServer: {

@@ -50,6 +50,14 @@ class Request {
     }
 
     /**
+     * Build the http client options
+     * @protected
+     **/
+    _httpClientOptions(options) {
+        return options;
+    }
+
+    /**
      * Return the url for a given query string
      * @protected
      **/
@@ -58,10 +66,12 @@ class Request {
     }
 
     /**
-     * Query a given url
+     * Query the end point with a given query string
      **/
     query(qs, cb) {
-        return this._httpClient(this._url(qs))
+        return this._httpClient(this._httpClientOptions({
+            uri: this._url(qs)
+        }))
             .on('response', function(response) {
                 response.on('end', function() {
                     if (this._isAborted()) {
