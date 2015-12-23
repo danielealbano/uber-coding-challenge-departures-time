@@ -34,7 +34,7 @@ class AgenciesV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiDescription List the agencies
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/agencies
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/agencies
      *
      * @apiSuccess {object[]} agencies              List of Agencies
      * @apiSuccess {number}   agencies.tag          Tag

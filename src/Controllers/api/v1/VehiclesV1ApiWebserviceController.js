@@ -38,7 +38,7 @@ class VehiclesV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiDescription List the routes handled by the agency
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/vehicles/sf-muni/N
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/vehicles/sf-muni/N
      *
      * @apiSuccess {object[]} vehicles                      List of vehicles
      * @apiSuccess {number}   vehicles.id                   Id

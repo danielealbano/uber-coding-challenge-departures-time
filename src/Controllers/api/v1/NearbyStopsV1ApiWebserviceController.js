@@ -39,7 +39,7 @@ class NearbyStopsV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiParam {string="km","miles"} distanceUnit Distance unit (km or miles)
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/nearby-stops?lat=37.79096&lon=-122.4020799&distance=0.1&distanceUnit=km
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/nearby-stops?lat=37.79096&lon=-122.4020799&distance=0.1&distanceUnit=km
      *
      * @apiSuccess {object[]}   stops               List of stops
      * @apiSuccess {string}     stops.lat           Latitude

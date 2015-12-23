@@ -37,7 +37,7 @@ class RouteV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiDescription Get the detail of a route
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/route/sf-muni/N
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/route/sf-muni/N
      *
      * @apiSuccess {string}     route.title                     Title
      * @apiSuccess {string}     route.color                     Color

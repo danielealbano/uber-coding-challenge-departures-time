@@ -31,7 +31,7 @@
   "apidoc": {
     "title": "Uber Coding Challenge - Departures Time Api",
     "version": "1.0.0",
-    "url": "https://secret-lake-8750.herokuapp.com",
-    "sampleUrl": "http://secret-lake-8750.herokuapp.com"
+    "url": "http://uber-coding-challenge.cloud.itechcon.it",
+    "sampleUrl": "http://uber-coding-challenge.cloud.itechcon.it"
   }
 }

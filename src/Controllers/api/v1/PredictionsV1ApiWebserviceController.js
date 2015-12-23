@@ -37,7 +37,7 @@ class PredictionsV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiParam {String[]} stops List of routes/stops tag, the stop identifier must be supplied in the format {Route Tag}|{Stop Tag}
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/predictions/sf-muni?stops=N|3212&stops=N|3909
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/predictions/sf-muni?stops=N|3212&stops=N|3909
      *
      * @apiSuccess {object[]}   predictions                                 List of predictions
      * @apiSuccess {string}     predictions.routeTag                        Route tag

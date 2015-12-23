@@ -36,7 +36,7 @@ class RoutesV1ApiWebserviceController extends V1ApiWebserviceController {
      * @apiDescription List the routes handled by the agency
      *
      * @apiExample Example usage:
-     * curl -i https://secret-lake-8750.herokuapp.com/api/v1/routes/sf-muni
+     * curl -i http://uber-coding-challenge.cloud.itechcon.it/api/v1/routes/sf-muni
      *
      * @apiSuccess {object[]} routes            List of route
      * @apiSuccess {number}   routes.tag        Tag
