@@ -41,11 +41,15 @@ The code hasn't been developed following a test driven approach because I don't 
 
 1. Install node.js
 2. `npm install`
-3. `node generate-dataset.js`
+3. Copy config.js.skel to config.js
+4. Change the configuration file as needed, the most relevant section is `bindings`
+5. `node generate-dataset.js`
 
 ### Test
 
-1. `npm test`
+1. Check if dev dependencies have been installed
+  * if not, `npm install --dev`
+2. `npm test`
 
 ### Generate Api Documentation
 
@@ -55,9 +59,7 @@ The code hasn't been developed following a test driven approach because I don't 
 
 ### Run
 
-1. Check if the dataset has been generated
-  * if not, run `node generate-dataset.js`
-2. `npm start`
+1. `npm start`
 
 ### Stack/Tools Used
 
