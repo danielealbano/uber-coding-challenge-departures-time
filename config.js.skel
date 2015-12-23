@@ -9,12 +9,12 @@ module.exports = {
         bindings: [
             {
                 type: 'http',
-                port: process.env.PORT || 3080,
+                port: 80,
                 address: null
             },
             {
                 type: 'https',
-                port: process.env.PORT || 3443,
+                port: 443,
                 address: null,
                 cert: fs.readFileSync(__dirname + '/keys/cert.pem'),
                 key: fs.readFileSync(__dirname + '/keys/key.pem'),
