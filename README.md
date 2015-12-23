@@ -41,6 +41,7 @@ The code hasn't been developed following a test driven approach because I don't 
 
 1. Install node.js
 2. `npm install`
+3. `node generate-dataset.js`
 
 ### Test
 
