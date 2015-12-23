@@ -1,6 +1,6 @@
 ## Departures Time - Uber Coding Challenge
 
-This repository contains an implementation of the Departures Time coding challenge, it is hosted on Heroku and can be reached at the following url (https://secret-lake-8750.herokuapp.com/).
+This repository contains an implementation of the Departures Time coding challenge, it is hosted on Heroku and can be reached at the following url (http://uber-coding-challenge.cloud.itechcon.it/).
 
 ### The Challenge
 
