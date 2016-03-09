@@ -1,6 +1,8 @@
-## Departures Time - Uber Coding Challenge
+## Departures Time
 
 This repository contains an implementation of the Departures Time coding challenge, it is hosted on a digital ocean droplet and can be reached at the following urls https://uber-coding-challenge.cloud.itechcon.it/ and http://uber-coding-challenge.cloud.itechcon.it/.
+
+__The virtual machine is not available anymore__
 
 ### The Challenge
 
@@ -73,7 +75,7 @@ The code hasn't been developed following a test driven approach because I don't 
 * [mocha](https://mochajs.org/) (no experience)
 * [apidoc](http://apidocjs.com/) (no experience)
 
-### Technical choises
+### Technical choices
 
 There would be a lot to say, but in brief:
 * ES6 features, like classes, have been used
